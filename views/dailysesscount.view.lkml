@@ -18,7 +18,9 @@ view: dailysesscount {
 
   dimension: daily_sessions_date {
     type: string
-    sql: ${TABLE}.daily_sessions_date ;;
+    sql: ${TABLE}.daily_sessions_date
+    key: yes
+    ;;
   }
 
   dimension: daily_sessions_count {
